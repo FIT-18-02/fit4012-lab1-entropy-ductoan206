@@ -11,4 +11,4 @@
 - [X] Đã chạy với `6 9`
 
 ## Điều em học được từ bài lab
-Qua bài lab này, em hiểu rõ hơn cách áp dụng kiến thức lý thuyết vào lập trình thực tế, đặc biệt là khái niệm entropy và redundancy trong bảo mật thông tin.Em biết cách tính nghịch đảo modulo và hiểu điều kiện để một số có thể tồn tại nghịch đảo. Ngoài ra, em cũng rèn được kỹ năng chạy thử chương trình với nhiều bộ dữ liệu khác nhau để kiểm tra tính đúng đắn. Bài lab giúp em quen hơn với việc phân tích lỗi, đọc kết quả đầu ra và hoàn thiện quy trình làm bài trên môi trường thực hành.
+Em hiểu cách tính entropy và redundancy để đánh giá dữ liệu, đồng thời biết cách tìm modulo inverse bằng Euclid mở rộng. Khó khăn là hiểu công thức và xử lý số âm, nhưng sau khi test nhiều trường hợp em đã nắm chắc hơn.
