@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Tính entropy Shannon
+// TÃ­nh entropy Shannon
 double calculate_entropy(const string &text) {
     if (text.empty()) return 0.0;
 
@@ -26,7 +26,7 @@ double calculate_entropy(const string &text) {
     return entropy;
 }
 
-// Tính redundancy
+// TÃ­nh redundancy
 double calculate_redundancy(const string &text, int alphabet_size = 256) {
     if (text.empty()) return 0.0;
 

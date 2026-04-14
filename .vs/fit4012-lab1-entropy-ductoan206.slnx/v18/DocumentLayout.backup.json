@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\report-page.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:report-page.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\tests\\test_cases.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\test_cases.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\entropy_redundancy.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\entropy_redundancy.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\mod_inverse.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\mod_inverse.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\entropy_redundancy.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\entropy_redundancy.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\report-page.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:report-page.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\tests\\test_cases.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\test_cases.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\logs\\run_log.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -46,7 +46,32 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "report-page.md",
+              "DocumentMoniker": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\report-page.md",
+              "RelativeDocumentMoniker": "report-page.md",
+              "ToolTip": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\report-page.md",
+              "RelativeToolTip": "report-page.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-14T14:38:16.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "entropy_redundancy.cpp",
+              "DocumentMoniker": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\entropy_redundancy.cpp",
+              "RelativeDocumentMoniker": "src\\entropy_redundancy.cpp",
+              "ToolTip": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\entropy_redundancy.cpp",
+              "RelativeToolTip": "src\\entropy_redundancy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-14T14:37:47.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "test_cases.md",
               "DocumentMoniker": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\tests\\test_cases.md",
               "RelativeDocumentMoniker": "tests\\test_cases.md",
@@ -58,40 +83,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "report-page.md",
-              "DocumentMoniker": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\report-page.md",
-              "RelativeDocumentMoniker": "report-page.md",
-              "ToolTip": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\report-page.md",
-              "RelativeToolTip": "report-page.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAACmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-04-14T14:38:16.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "mod_inverse.cpp",
               "DocumentMoniker": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\mod_inverse.cpp",
               "RelativeDocumentMoniker": "src\\mod_inverse.cpp",
               "ToolTip": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\mod_inverse.cpp",
               "RelativeToolTip": "src\\mod_inverse.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAUwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-14T14:38:12.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "entropy_redundancy.cpp",
-              "DocumentMoniker": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\entropy_redundancy.cpp",
-              "RelativeDocumentMoniker": "src\\entropy_redundancy.cpp",
-              "ToolTip": "E:\\btapATBMTT\\fit4012-lab1-entropy-ductoan206\\src\\entropy_redundancy.cpp",
-              "RelativeToolTip": "src\\entropy_redundancy.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-14T14:37:47.061Z"
             },
             {
               "$type": "Document",
