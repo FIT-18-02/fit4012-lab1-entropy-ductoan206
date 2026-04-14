@@ -1,92 +1,47 @@
+#include <iostream>
+#include <string>
+#include <map>
 #include <cmath>
-#include <iostream>
-#include <map>
-#include <string>
 
 using namespace std;
 
+// Tính entropy Shannon
 double calculate_entropy(const string &text) {
-    if (text.empty()) {
-        return 0.0;
-    }
+    if (text.empty()) return 0.0;
 
     map<char, int> freq;
+
     for (char c : text) {
         freq[c]++;
     }
 
     double entropy = 0.0;
-    for (const auto &pair : freq) {
-        double p = static_cast<double>(pair.second) / text.size();
+    int n = text.length();
+
+    for (auto pair : freq) {
+        double p = (double)pair.second / n;
         entropy -= p * log2(p);
     }
+
     return entropy;
 }
 
+// Tính redundancy
 double calculate_redundancy(const string &text, int alphabet_size = 256) {
-    if (text.empty()) {
-        return 0.0;
-    }
+    if (text.empty()) return 0.0;
 
-    double entropy = calculate_entropy(text);
-    double max_entropy = log2(alphabet_size);
+    double hmax = log2(alphabet_size);
+    double h = calculate_entropy(text);
 
-    return max_entropy - entropy;
+    return 1.0 - (h / hmax);
 }
 
 int main() {
-    string input;
-    cout << "Enter a string of characters: ";
-    getline(cin, input);
+    string text;
+    getline(cin, text);
 
-    double entropy = calculate_entropy(input);
-    double redundancy = calculate_redundancy(input);
+    cout << "Entropy: " << calculate_entropy(text) << endl;
+    cout << "Redundancy: " << calculate_redundancy(text) << endl;
 
-    cout << "Entropy: " << entropy << '\n';
-    cout << "Redundancy: " << redundancy << '\n';
-    return 0;
-}#include <cmath>
-#include <iostream>
-#include <map>
-#include <string>
-
-using namespace std;
-
-double calculate_entropy(const string &text) {
-    if (text.empty()) {
-        return 0.0;
-    }
-
-    map<char, int> freq;
-    for (char c : text) {
-        freq[c]++;
-    }
-
-    double entropy = 0.0;
-    for (const auto &pair : freq) {
-        double p = static_cast<double>(pair.second) / text.size();
-        entropy -= p * log2(p);
-    }
-    return entropy;
-}
-
-double calculate_redundancy(const string &text, int alphabet_size = 256) {
-    // TODO(student): implement redundancy = log2(N) - H(X)
-    // Hint: use calculate_entropy(text)
-    (void)text;
-    (void)alphabet_size;
-    return -1.0;
-}
-
-int main() {
-    string input;
-    cout << "Enter a string of characters: ";
-    getline(cin, input);
-
-    double entropy = calculate_entropy(input);
-    double redundancy = calculate_redundancy(input);
-
-    cout << "Entropy: " << entropy << '\n';
-    cout << "Redundancy: " << redundancy << '\n';
     return 0;
 }
